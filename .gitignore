@@ -1,29 +1,53 @@
-AUTHORS
-build/*
-build-stamp
-ChangeLog
-cover/
-covhtml/
-dist/
-doc/build
-*.DS_Store
-*.pyc
-neutron.egg-info/
-neutron/vcsversion.py
-neutron/versioninfo
-pbr*.egg/
-quantum.egg-info/
-quantum/vcsversion.py
-quantum/versioninfo
-setuptools*.egg/
-*.log
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+.testrepository
+.venv
+
+# Translations
 *.mo
-*.sw?
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Complexity
+output/*.html
+output/*/index.html
+
+# Sphinx
+doc/build
+
+# pbr generates these
+AUTHORS
+ChangeLog
+
+# Editors
 *~
-/.*
-!/.coveragerc
-!/.gitignore
-!/.gitreview
-!/.mailmap
-!/.pylintrc
-!/.testr.conf
+.*.swp
+.*sw?
